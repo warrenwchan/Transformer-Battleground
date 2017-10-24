@@ -18,3 +18,4 @@ only going to be one battle).
 any other criteria.
 * In the event either of the above face each other (or a duplicate of each other), the game
 immediately ends with all competitors destroyed.
+
