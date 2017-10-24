@@ -19,3 +19,11 @@ any other criteria.
 * In the event either of the above face each other (or a duplicate of each other), the game
 immediately ends with all competitors destroyed.
 
+## Screenshots 
+
+###### RESULTS FROM BATTLE
+<img width="1898" alt="screen shot 2017-10-24 at 12 48 58 am" src="https://user-images.githubusercontent.com/24995518/31930663-5d81edf0-b855-11e7-9e91-9a64953bdc36.png">
+
+###### CALCULATION RULES SHEET (hover to left of screen)
+<img width="1901" alt="screen shot 2017-10-24 at 12 49 36 am" src="https://user-images.githubusercontent.com/24995518/31930701-851d46ac-b855-11e7-9f36-5edae3fca534.png">
+
