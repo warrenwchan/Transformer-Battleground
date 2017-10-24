@@ -261,7 +261,7 @@ const checkSkippedBattles = (autobot, decepticon) => {
     displayResults('decepticons', decepticon, 'skipped', `${decepticon.name} is left.`) // Decepticons battle is skipped
   } else if (decepticon === undefined) {
     if(win[0].toLowerCase() === 'decepticons') {
-      appendOutputHTML('autobots', autobot.name)
+      appendOutputHTML('losingSurvivor', autobot.name)
     }
     displayResults('autobots', autobot, 'skipped', `${autobot.name} is left.`); // autobots battle is skipped
   } else {
