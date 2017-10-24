@@ -1,0 +1,155 @@
+.watermark {
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  color: #7f8c8d;
+  bottom: 5px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  color: #555555;
+}
+
+img {
+  width: 200px;
+  margin-right: 15px;
+}
+
+input {
+  margin-bottom: 5px;
+  border: none;
+}
+
+input[type=button], [type=submit] {
+  margin-bottom: 20px;
+  color: #307BF6;
+}
+
+h1 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #303030;
+  padding-bottom: 6px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules {
+  width: 25%;
+  height: 100%;
+  padding: 0 15px;
+  color: #2c3e50;
+  background-color: #7f8c8d;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  left: -26%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  opacity: 0.2;
+}
+
+.rules:hover {
+  left: -15px;
+  opacity: 0.95;
+  background-color: #bdc3c7;
+}
+
+.actionButton {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.teamForm {
+  text-align: center;
+  margin: 25px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.botCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.botCard {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 5px 5px 25px 5px;
+  background-color: #ecf0f1;
+}
+
+.botForm {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.results {
+  margin: 25px;
+}
+
+.teams {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.botInfoContainer {
+  width: 50%;
+  text-align: center;
+  padding: 25px;
+}
+
+.battleResult {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.win {
+  color: #2c3e50;
+  opacity: 0.8;
+}
+
+.lost {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.autobots {
+  background-color: rgba(149, 165, 166, 0.15);
+}
+
+.decepticons {
+  background-color: rgba(189, 195, 199, 0.15);
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.outputItem {
+  width: 33.33%;
+}

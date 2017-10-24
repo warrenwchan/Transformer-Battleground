@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title">
+      <img src="http://www.aequilibrium.ca/wp-content/themes/aeq-aeb/library/images/aeq_logo.svg" alt="logo">
+      <h1>Battleground</h1>
+    </div>
+    <p>Press Add Transformer to begin...</p>
+    <div id="rules" class="rules">
+      <h2>Basic Rules</h2>
+      <p>● A battle between opponents uses the following rules:</p>
+      <p>○ If any fighter is down 4 or more points of courage and 3 or more points of strength compared to their opponent, the opponent automatically wins the face-off regardless of overall rating (opponent has ran away).</p>
+      <p>○ Otherwise, if one of the fighters is 3 or more points of skill above their opponent, they win the fight regardless of overall rating.</p>
+      <p>○ The winner is the Transformer with the highest overall rating.</p>
+      <p>● In the event of a tie, both Transformers are considered destroyed.</p>
+      <p>● Any Transformers who don’t have a fight are skipped (i.e. if it’s a team of 2 vs. a team of 1, there’s only going to be one battle).</p>
+      <p>● The team who eliminated the largest number of the opposing team is the winner.</p>
+      <h2>Special Rules:</h2>
+      <p>● Any Transformer named Optimus Prime or Predaking wins his fight automatically regardless of any other criteria.</p>
+      <p>● In the event either of the above face each other (or a duplicate of each other), the game immediately ends with all competitors destroyed.</p>
+    </div>
+    <form id="teamForm" class="teamForm" onsubmit="return false">
+      <input type="button" value="+ Add Transformer" onclick="appendBotCard()" class="actionButton">
+      <input type="button" value="Preset Transformer List" onclick="appendPresetBots()" class="actionButton">
+      <div id="botCards" class="botCards">
+        <!-- Children elements -->
+      </div>
+      <input type="submit" onclick="search()" class="actionButton">
+    </form>
+    <div id="results" class="results">
+      <!-- Children elements -->
+    </div>
+    <div class="watermark">
+        <p>Created by Warren Chan 2017. aequilibrium job assignment.</p>
+      </div>
+  </body>
+  <script src="index.js"></script>
+</html>
